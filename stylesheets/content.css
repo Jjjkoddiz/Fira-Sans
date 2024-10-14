@@ -21,6 +21,7 @@ body {
   font-size: 120px;
   color: #101010;
   text-transform: uppercase;
+  margin-top: -400px;
 }
 
 .first_page {
