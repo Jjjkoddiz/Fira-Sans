@@ -1,6 +1,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  background: #f4f4f4;
 }
 .text {
   width: 100%;
@@ -10,20 +11,21 @@ body {
 .first_screen {
   height: 1024px;
   width: 1280px;
-  position: flex;
+  position: center;
   background: #f4f4f4;
+  margin: 0% auto;
 }
 
 .first_screen h1 {
-  font-family: 'FiraSansBold';
-  font-size: 100px;
+  font-family: 'FiraSans-Bold';
+  font-size: 120px;
   color: #101010;
   text-transform: uppercase;
 }
+
 .first_page {
   width: 1280px;
   height: 1024px;
-  position: absolute;
   background: url(../images/1page.svg);
   top: 0;
   left: 0;
