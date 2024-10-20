@@ -19,6 +19,10 @@ body {
   background: #f4f4f4;
 }
 
+.line_block {
+  border-bottom: 4px solid #77f721;
+}
+
 .first_screen h1 {
   font-family: 'FiraSans-Bold';
   font-size: 110px;
@@ -34,3 +38,68 @@ body {
   top: 0;
   left: 0;
 }
+
+.second_screen {
+  height: 1569px;
+  width: 1280px;
+  position: relative;
+  background: url(../images/2page.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'FiraSans-Medium';
+  font-size: 30px;
+  line-height: 90%;
+  left: 112px;
+  top: 50px;
+  position: absolute;
+}
+
+.title2 {
+  font-family: 'FiraSans-Medium';
+  font-size: 30px;
+  line-height: 90%;
+  left: 112px;
+  top: 834px;
+  position: absolute;
+}
+
+.first_par h4 {
+  font-family: 'FiraSans-Regular';
+  font-size: 20px;
+  line-height:47px
+  padding-top: 106px;
+  margin-left: 112px;
+  color: #101010;
+}
+.second_screen h4 {
+  font-family: 'FiraSans-Regular';
+  font-size: 20px;
+  color: #101010;
+}
+.third_screen{
+  height: 1100px;
+  width: 1280px;
+  position: relative;
+  background: url(../images/3page.svg);
+  display: flex;
+  justify-content: center;
+}
+/* .second_screen h4 {
+  font-family: 'FiraSans-Regular';
+  font-size: 20px;
+  color: #101010;
+  top: 106px;
+  left: 112px;
+  width: 400px;
+  height: 47px;
+} */
+/* }
+.second_screen h4 {
+  font-family: 'FiraSans-Regular';
+  font-size: 20px;
+  color: #101010;
+} */

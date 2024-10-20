@@ -4,13 +4,13 @@
     url('FiraSans-Bold.woff') format('woff2');
 }
 @font-face {
-  font-family: 'Lexend Peta Bold';
-  src: local('Lexend Peta Bold'), local('LexendPeta-Bold'),
-    url('Lexend Peta Bold-webfont.woff2') format('woff2');
+  font-family: 'FiraSans-Medium';
+  src: local('FiraSans-Medium'), local('FiraSans-Medium'),
+    url('FiraSans-Medium.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Lexend Peta Italic';
-  src: local('Lexend Peta Italic'), local('LexendPeta-Italic'),
-    url('Lexend Peta Italic-webfont.woff2') format('woff2');
+  font-family: 'FiraSans-Regular';
+  src: local('FiraSans-Regular'), local('FiraSans-Regular'),
+    url('FiraSans-Regular.woff2') format('woff2');
 }
