@@ -1,32 +1,35 @@
 body {
-  width: 100%;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #f4f4f4;
 }
 .text {
-  width: 100%;
+  width: 1280px;
   text-align: center;
+  padding-top: 76px;
 }
 
 .first_screen {
   height: 1024px;
   width: 1280px;
-  position: center;
+  position: relative;
   background: #f4f4f4;
-  margin: 0% auto;
 }
 
 .first_screen h1 {
   font-family: 'FiraSans-Bold';
-  font-size: 120px;
+  font-size: 110px;
   color: #101010;
   text-transform: uppercase;
-  margin-top: -400px;
 }
 
 .first_page {
   width: 1280px;
   height: 1024px;
+  position: absolute;
   background: url(../images/1page.svg);
   top: 0;
   left: 0;

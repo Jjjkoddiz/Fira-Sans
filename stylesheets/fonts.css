@@ -1,6 +1,16 @@
 @font-face {
   font-family: 'FiraSans-Bold';
-  src: url(../fonts/FiraSans-Bold.ttf) format('truetype');
-  font-style: bold;
-  font-weight: bold;
+  src: local('FiraSans-Bold'), local('FiraSans-Bold'),
+    url('FiraSans-Bold.woff') format('woff2');
+}
+@font-face {
+  font-family: 'Lexend Peta Bold';
+  src: local('Lexend Peta Bold'), local('LexendPeta-Bold'),
+    url('Lexend Peta Bold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lexend Peta Italic';
+  src: local('Lexend Peta Italic'), local('LexendPeta-Italic'),
+    url('Lexend Peta Italic-webfont.woff2') format('woff2');
 }
