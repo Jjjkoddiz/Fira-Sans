@@ -43,7 +43,6 @@ body {
   height: 1569px;
   width: 1280px;
   position: relative;
-  background: url(../images/2page.svg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,13 +79,24 @@ body {
   font-size: 20px;
   color: #101010;
 }
+.second_screen > img {
+  z-index: 100;
+  position: absolute;
+  top: 380px;
+  left: 46px;
+}
 .third_screen{
   height: 1100px;
   width: 1280px;
   position: relative;
-  background: url(../images/3page.svg);
   display: flex;
   justify-content: center;
+}
+.third_screen > img {
+  z-index: 100;
+  position: absolute;
+  top: 138px;
+  left: 55px;
 }
 /* .second_screen h4 {
   font-family: 'FiraSans-Regular';
