@@ -38,6 +38,24 @@ body {
   top: 0;
   left: 0;
 }
+.by{
+  font-family: 'FiraSans-Medium';
+  font-size: 27px;
+  color: #101010;
+  text-transform: uppercase;
+  display:flex; 
+  justify-content center; 
+  space-between 20px;
+}
+
+.open{
+  font-family: 'FiraSans-Regular';
+  font-size: 16px;
+  color: #101010;
+  text-transform: uppercase;
+  display:flex; 
+  
+}
 
 .second_screen {
   height: 1569px;
