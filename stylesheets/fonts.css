@@ -16,3 +16,63 @@
   font-family: 'FiraSans-Black';
   src: url('../fonts/FiraSans-Black.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'FiraSans-BlackItalic';
+  src: url('../fonts/FiraSans-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-ExtraBoldItalic';
+  src: url('../fonts/FiraSans-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-BoldItalic';
+  src: url('../fonts/FiraSans-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-SemiBoldItalic';
+  src: url('../fonts/FiraSans-SemiBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-MediumItalic';
+  src: url('../fonts/FiraSans-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Italic';
+  src: url('../fonts/FiraSans-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-LightItalic';
+  src: url('../fonts/FiraSans-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-ExtraLightItalic';
+  src: url('../fonts/FiraSans-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-ThinItalic';
+  src: url('../fonts/FiraSans-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Black';
+  src: url('../fonts/FiraSans-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-ExtraBold';
+  src: url('../fonts/FiraSans-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Bold';
+  src: url('../fonts/FiraSans-Bold.woff') format('woff');
+}

@@ -17,7 +17,7 @@ h2 {
 h3 {
   font-family: 'FiraSans-Regular';
   font-size: 18px;
-  color: white;
+  color: #f4f4f4;
 }
 
 h4 {
@@ -41,8 +41,8 @@ h6 {
 }
 
 .heading {
-  margin: 20px 30%;
   margin-top: 76px;
+  margin-left: 387px;
 }
 
 .horizontal_block {
@@ -150,7 +150,8 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 54px 0 0 0;
+  margin-left: 112px;
+  margin-top: 50px;
 }
 
 .headtwo {
@@ -164,20 +165,49 @@ h6 {
   text-transform: uppercase;
   width: 157px;
   height: 36px;
-  margin-top: 114px;
+  margin-top: 116px;
   margin-left: 562px;
 }
-
+.vertical_block1 {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-top: 33px;
+  margin-left: 229px;
+}
 .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 202px;
-  height: 45px;
+  width: 82px;
+  height: 36px;
   background: #f4f4f4;
-  border: 4px solid black;
+  border: 2px solid #101010;
   border-radius: 5px;
 }
+
+.button2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 71px;
+  height: 24px;
+  border: 2px solid #101010;
+  border-radius: 5px;
+}
+.smallbuttext {
+  font-family: 'FiraSans-Regular';
+  font-size: 16px;
+  color: #101010;
+  text-transform: uppercase;
+}
+
+/* .smallscreen1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 54px 0 0 0;
+} */
 .vertical_block {
   display: flex;
   flex-direction: column;
@@ -190,7 +220,7 @@ h6 {
   width: 202px;
   height: 45px;
   background: #f4f4f4;
-  border: 4px solid black;
+  border: 4px solid #101010;
   border-radius: 5px;
 }
 .button div {
@@ -199,6 +229,154 @@ h6 {
   align-items: center;
   width: 183px;
   height: 31px;
-  background: black;
+  background: #101010;
   border-radius: 5px;
+}
+
+.third_screen {
+  height: 1100px;
+  width: 1280px;
+  position: relative;
+  background: url(../images/3page.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+  display: center;
+}
+.label {
+  margin-left: 112px;
+  margin-top: 50px;
+}
+
+.Black_Italic {
+  font-family: 'FiraSans-BlackItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 178px;
+  margin-top: 62px;
+  margin-left: 803px;
+}
+
+.ExtraBold_Italic {
+  text-align: center;
+  font-family: 'FiraSans-ExtraBoldItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 69px;
+  width: 160px;
+  margin-top: -5px;
+  margin-left: 561px;
+}
+
+.Bold_Italic {
+  font-family: 'FiraSans-BoldItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 164px;
+  margin-top: -21px;
+  margin-left: 296px;
+}
+
+.SemiBold_Italic {
+  font-family: 'FiraSans-SemiBoldItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 139px;
+  margin-top: 24px;
+  margin-left: 570px;
+}
+.Medium_Italic {
+  text-align: center;
+  font-family: 'FiraSans-MediumItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 69px;
+  width: 120px;
+  margin-top: 15px;
+  margin-left: 581px;
+}
+
+.Italic {
+  font-family: 'FiraSans-Italic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 82px;
+  margin-top: -40px;
+  margin-left: 797px;
+}
+.Light_Italic {
+  font-family: 'FiraSans-LightItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 163px;
+  margin-top: 15px;
+  margin-left: 820px;
+}
+
+.ExtraLight_Italic {
+  text-align: center;
+  font-family: 'FiraSans-ExtraLightItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 69px;
+  width: 159px;
+  margin-top: -14px;
+  margin-left: 284px;
+}
+
+.Thin_Italic {
+  font-family: 'FiraSans-ThinItalic';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 148px;
+  margin-top: -42px;
+  margin-left: 839px;
+}
+
+.Black {
+  font-family: 'FiraSans-Black';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 90px;
+  margin-top: -12px;
+  margin-left: 605px;
+}
+
+.ExtraBold {
+  font-family: 'FiraSans-ExtraBold';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 161px;
+  margin-top: -6px;
+  margin-left: 827px;
+}
+
+.Bold {
+  font-family: 'FiraSans-Bold';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 74px;
+  margin-top: -6px;
+  margin-left: 608px;
 }
