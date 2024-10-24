@@ -11,3 +11,8 @@
   font-family: 'FiraSans-Regular';
   src: url('../fonts/FiraSans-Regular.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'FiraSans-Black';
+  src: url('../fonts/FiraSans-Black.woff') format('woff');
+}

@@ -36,7 +36,7 @@ h6 {
   background: url(../images/1page.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 61px;
+  margin-top: 60px;
   display: center;
 }
 
@@ -50,7 +50,6 @@ h6 {
   flex-direction: row;
   margin-top: 20px;
   margin-left: 200px;
-  /* margin: 0px 380px 0 0; */
   gap: 9px;
 }
 
@@ -139,9 +138,11 @@ h6 {
   height: 1569px;
   width: 1280px;
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  background: url(../images/2page.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+  display: center;
 }
 
 .description {
@@ -152,6 +153,19 @@ h6 {
   margin: 54px 0 0 0;
 }
 
+.headtwo {
+  margin: 112px 834px 0 0;
+}
+
+.headsampler {
+  font-family: 'FiraSans-Black';
+  font-size: 30px;
+  color: #101010;
+  margin-top: 562px;
+  margin-left: 333px;
+  width: 157px;
+  height: 36px;
+}
 .vertical_block {
   display: flex;
   flex-direction: column;
