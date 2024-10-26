@@ -76,3 +76,33 @@
   font-family: 'FiraSans-Bold';
   src: url('../fonts/FiraSans-Bold.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'FiraSans-SemiBold';
+  src: url('../fonts/FiraSans-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('../fonts/FiraSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('../fonts/FiraSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('../fonts/FiraSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-ExtraLight';
+  src: url('../fonts/FiraSans-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans-Thin';
+  src: url('../fonts/FiraSans-Thin.woff') format('woff');
+}

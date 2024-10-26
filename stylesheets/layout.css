@@ -7,6 +7,12 @@ body {
   background: #f4f4f4;
 }
 
+h1 {
+  font-family: 'FiraSans-Black';
+  font-size: 200px;
+  color: #101010;
+  text-transform: uppercase;
+}
 h2 {
   font-family: 'FiraSans-Bold';
   font-size: 110px;
@@ -379,4 +385,75 @@ h6 {
   width: 74px;
   margin-top: -6px;
   margin-left: 608px;
+}
+
+.SemiBold {
+  font-family: 'FiraSans-SemiBold';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 140px;
+  margin-top: -11px;
+  margin-left: 375px;
+}
+
+.Medium {
+  font-family: 'FiraSans-Medium';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 112px;
+  margin-top: -13px;
+  margin-left: 590px;
+}
+
+.Regular {
+  font-family: 'FiraSans-Regular';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 123px;
+  margin-top: -14px;
+  margin-left: 851px;
+}
+
+.Light {
+  font-family: 'FiraSans-Light';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 77px;
+  margin-top: 52px;
+  margin-left: 609px;
+}
+
+.ExtraLight {
+  font-family: 'FiraSans-ExtraLight';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 157px;
+  margin-top: 17px;
+  margin-left: 571px;
+}
+
+.Thin {
+  font-family: 'FiraSans-Thin';
+  font-size: 30px;
+  color: #101010;
+  text-transform: uppercase;
+  height: 36px;
+  width: 63px;
+  margin-top: 12px;
+  margin-left: 255px;
+}
+/* не работатает display 0 auto */
+.number {
+  margin-top: 88px;
+  margin-left: 582px;
 }
