@@ -49,6 +49,12 @@ h6 {
   margin-left: 387px;
 }
 
+.big_window {
+  margin-top: 618px;
+  margin-left: 389px;
+  width: 644px;
+  height: 389px;
+}
 .horizontal_block {
   display: flex;
   flex-direction: row;
@@ -221,12 +227,20 @@ h6 {
   text-transform: uppercase;
 }
 
-/* .smallscreen1 {
+.horizontal_block1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 200px;
+  gap: 24px;
+}
+
+.smallscreen1 {
   display: flex;
   flex-direction: row;
   gap: 20px;
   margin: 54px 0 0 0;
-} */
+}
 .vertical_block {
   display: flex;
   flex-direction: column;
