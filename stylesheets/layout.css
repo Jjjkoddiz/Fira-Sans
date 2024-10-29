@@ -994,12 +994,110 @@ h6 {
 }
 
 .ninth_screen {
-  height: 1024px;
+  height: 792px;
   width: 1280px;
   position: relative;
-  background: url(../images/8page.svg);
+  background: url(../images/9page.svg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 10px;
   display: center;
+}
+
+.finalcheque {
+  display: flex;
+  flex-direction: column;
+  width: 349px;
+  height: 603px;
+  transform: rotate(-9deg);
+  margin-top: 96px;
+  margin-left: 465px;
+}
+
+.fincheqtext1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.first_position {
+  width: 298px;
+  height: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 38px;
+  margin-left: 24px;
+}
+
+.firstpostext {
+  font-family: 'FiraSans-Regular';
+  font-size: 16px;
+  color: #101010;
+  text-transform: uppercase;
+}
+
+.second_position {
+  margin-top: 15px;
+  margin-left: 24px;
+}
+
+.third_position {
+  margin-top: 15px;
+  margin-left: 24px;
+}
+
+.fourth_position {
+  margin-top: 15px;
+  margin-left: 24px;
+}
+
+.final_position {
+  width: 298px;
+  height: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-left: 24px;
+}
+
+.finalpostext {
+  text-transform: uppercase;
+}
+
+.finalword {
+  text-align: center;
+  margin-top: 38px;
+  text-transform: uppercase;
+}
+
+.finnumbers {
+  margin-top: 106px;
+  margin-left: 110px;
+  letter-spacing: 4px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #101010;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+footer img {
+  width: 258px;
+  height: 110px;
+  margin-right: 360px;
+}
+
+.foothertext {
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+  margin-left: 200px;
 }
