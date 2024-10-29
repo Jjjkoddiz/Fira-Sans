@@ -850,3 +850,156 @@ h6 {
   margin-top: -36px;
   text-align: center;
 }
+
+.seventh_screen {
+  height: 1024px;
+  width: 1280px;
+  position: relative;
+  background: url(../images/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  display: center;
+}
+
+.eighth_screen {
+  height: 1024px;
+  width: 1280px;
+  position: relative;
+  background: url(../images/8page.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  display: center;
+}
+
+.line_green4 {
+  width: 1280px;
+  height: 4px;
+  background: #77f721;
+  margin: 0 0 0 0;
+}
+
+.horiz_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 1280px;
+  height: 919px;
+}
+
+.cheque {
+  display: flex;
+  flex-direction: column;
+  width: 442px;
+  height: 878px;
+  transform: rotate(-6deg);
+  margin-top: 12px;
+  margin-left: 220px;
+}
+
+.stickerr {
+  display: flex;
+  flex-direction: column;
+  width: 294px;
+  height: 164px;
+  transform: rotate(15deg);
+  margin-top: 450px;
+  margin-left: 360px;
+}
+
+.chequetext {
+  font-family: 'FiraSans-Regular';
+  font-size: 16px;
+  color: #101010;
+}
+
+.position {
+  margin-top: 195px;
+  margin-left: 166px;
+}
+
+.position1 {
+  margin-top: 40px;
+  margin-left: 188px;
+}
+
+.position2 {
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+.position3 {
+  margin-top: 34px;
+  margin-left: 65px;
+}
+
+.position4 {
+  margin-top: 82px;
+  margin-left: 65px;
+}
+
+.position5 {
+  margin-top: 8px;
+  margin-left: 65px;
+}
+
+.position6 {
+  margin-top: 29px;
+  margin-left: 80px;
+}
+
+.position7 {
+  margin-top: 106px;
+  margin-left: 122px;
+}
+
+.position8 {
+  margin-top: 25px;
+  margin-left: 122px;
+}
+
+.position9 {
+  margin-top: 24px;
+  margin-left: 62px;
+}
+
+.stictext1 {
+  color: #f4f4f4;
+  letter-spacing: 20px;
+  margin-top: 14px;
+  margin-left: 30px;
+}
+
+.stictext2 {
+  letter-spacing: 4px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.stictext3 {
+  color: #f4f4f4;
+  letter-spacing: 5px;
+  margin-top: 23px;
+  margin-left: 24px;
+}
+
+.line_green5 {
+  width: 1280px;
+  height: 4px;
+  background: #77f721;
+  margin: 10px 0 0 0;
+}
+
+.ninth_screen {
+  height: 1024px;
+  width: 1280px;
+  position: relative;
+  background: url(../images/8page.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  display: center;
+}
