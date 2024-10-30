@@ -1206,15 +1206,22 @@ h6 {
   text-transform: uppercase;
 }
 
-/* как то сделать отступы, чтобы между строками было расстояние */
 .finalword {
   text-align: center;
   margin-top: 38px;
   text-transform: uppercase;
 }
 
+.finalword2 {
+  margin-top: 5px;
+}
+
+.finalword3 {
+  margin-top: 5px;
+}
+
 .finnumbers {
-  margin-top: 106px;
+  margin-top: 96px;
   margin-left: 110px;
   letter-spacing: 4px;
 }
