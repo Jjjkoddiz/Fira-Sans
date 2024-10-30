@@ -662,6 +662,139 @@ h6 {
   display: center;
 }
 
+.container1 {
+  display: flex;
+  flex-direction: column;
+  height: 753px;
+  width: 1280px;
+  margin-top: -10px;
+}
+
+.first_hor {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  height: 190px;
+  width: 1280px;
+  margin-top: -10px;
+}
+
+.b1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 35px;
+  height: 190px;
+  width: 299px;
+  margin-top: -28px;
+  margin-left: 270px;
+}
+
+.b2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+  height: 190px;
+  width: 299px;
+  margin-top: 25px;
+  margin-left: 85px;
+}
+
+.second_hor {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  height: 190px;
+  width: 1280px;
+  margin-top: 100px;
+}
+
+.b3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: -100px;
+  height: 190px;
+  width: 299px;
+  margin-top: 118px;
+  margin-left: 91px;
+}
+
+.b4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 35px;
+  height: 190px;
+  width: 299px;
+  margin-top: -17px;
+  margin-left: 51px;
+}
+
+.b5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  height: 190px;
+  width: 299px;
+  margin-top: -14px;
+  margin-left: 35px;
+}
+.third_hor {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  height: 190px;
+  width: 1280px;
+  margin-top: 150px;
+}
+
+.b6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 35px;
+  height: 190px;
+  width: 299px;
+  margin-top: -17px;
+  margin-left: 51px;
+}
+
+.b7 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  height: 190px;
+  width: 299px;
+  margin-top: -14px;
+  margin-left: 35px;
+}
+
+/* .bottle_caps {
+  height: 1142px;
+  background: #1b0c0c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 66px;
+} */
+
+.mask > div {
+  width: 150px;
+  height: 150px;
+  background: #f4f4f4;
+  margin: 20px;
+  /* overflow: hidden; */
+  position: relative;
+  /* border-radius: 100%; */
+  border-image: url(../images/mask1.svg) 1 fill;
+  /* border-image-outset: 38px; */
+}
+
 .fourth_screen > img {
   z-index: 100;
   position: absolute;
