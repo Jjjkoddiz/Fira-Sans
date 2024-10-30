@@ -995,6 +995,11 @@ h6 {
   display: center;
 }
 
+.container {
+  height: 956px;
+  width: 1280px;
+}
+
 .eighth_screen {
   height: 1024px;
   width: 1280px;
@@ -1198,6 +1203,7 @@ h6 {
   text-transform: uppercase;
 }
 
+/* как то сделать отступы, чтобы между строками было расстояние */
 .finalword {
   text-align: center;
   margin-top: 38px;
