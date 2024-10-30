@@ -1000,26 +1000,101 @@ h6 {
 }
 
 .container {
+  display: flex;
+  flex-direction: row;
   height: 956px;
   width: 1280px;
-  margin-top: 100px;
+  margin-top: 44px;
+}
+
+.hor1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 500px;
+  width: 1280px;
 }
 
 .circle1 {
-  z-index: -1px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 258px;
-  width: 256px;
-  background: url(../images/circle.svg);
+  height: 400px;
+  width: 405px;
+  background: url(../images/circle1.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 115px;
-  margin-left: 58px;
+  margin-top: 2px;
 }
 
 .circle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 229px;
+  width: 238px;
+  background: url(../images/circle2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 16px;
+  margin-left: -28px;
+}
+
+.circle2 h1 {
+  width: 150px;
+  height: 150px;
+  clip-path: circle(
+    50% at 50% 50%
+  ); /* круг для обрезки, центрированный внутри блока */
+  overflow: hidden;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 6px;
+}
+
+.circle3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 287px;
+  width: 300px;
+  background: url(../images/circle3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -78px;
+  margin-left: 60px;
+}
+
+.circle3 h1 {
+  width: 187px;
+  height: 187px;
+  clip-path: circle(
+    50% at 50% 50%
+  ); /* круг для обрезки, центрированный внутри блока */
+  overflow: hidden;
+  text-align: center;
+  line-height: 120px;
+  margin-top: 5px;
+}
+
+.extext {
+  text-transform: uppercase;
+}
+
+.circle4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 488px;
+  width: 466px;
+  background: url(../images/circle4.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -78px;
+  margin-left: 200px;
+}
+
+/* .circle2 {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -1079,7 +1154,7 @@ h6 {
   background-size: cover;
   margin-top: 115px;
   margin-left: 600px;
-}
+} */
 
 .eighth_screen {
   height: 1024px;
