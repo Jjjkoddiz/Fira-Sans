@@ -970,6 +970,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   display: center;
+  box-sizing: border-box;
 }
 
 .container {
