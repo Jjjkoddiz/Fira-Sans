@@ -220,7 +220,7 @@ h6 {
   display: flex;
   flex-direction: row;
   gap: 9px;
-  margin-left: -2px;
+  margin-left: -1px;
 }
 
 .partthree {
@@ -233,7 +233,7 @@ h6 {
   height: 74px;
   width: 600px;
   margin-top: 14px;
-  margin-left: 3px;
+  margin-left: 6px;
 }
 
 .horizontal_block4 {
@@ -684,12 +684,23 @@ h6 {
 .b2 {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   gap: 40px;
-  height: 190px;
-  width: 299px;
-  margin-top: 25px;
+  height: 400px;
+  width: 300px;
+  margin-top: 15px;
   margin-left: 85px;
+}
+
+.b2 h1 {
+  width: 150px;
+  height: 150px;
+  clip-path: circle(
+    50% at 50% 50%
+  ); /* круг для обрезки, центрированный внутри блока */
+  overflow: hidden;
+  text-align: center;
+  line-height: 220px;
 }
 
 .second_hor {
@@ -704,29 +715,40 @@ h6 {
 .b3 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  height: 400px;
+  width: 300px;
+  margin-top: 26px;
+  margin-left: 92px;
+}
+
+.b3 h1 {
+  width: 150px;
+  height: 150px;
+  clip-path: circle(
+    50% at 50% 50%
+  ); /* круг для обрезки, центрированный внутри блока */
+  overflow: hidden;
   text-align: center;
-  gap: -100px;
-  height: 190px;
-  width: 299px;
-  margin-top: 118px;
-  margin-left: 91px;
+  line-height: 280px;
 }
 
 .b4 {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   gap: 35px;
   height: 190px;
   width: 299px;
   margin-top: -17px;
-  margin-left: 51px;
+  margin-left: 50px;
 }
 
 .b5 {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   gap: 30px;
   height: 190px;
   width: 299px;
@@ -745,40 +767,44 @@ h6 {
 .b6 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 43px;
+  height: 400px;
+  width: 300px;
+  margin-top: -14px;
+  margin-left: 162px;
+}
+
+.b6 h1 {
+  width: 150px;
+  height: 150px;
+  clip-path: circle(
+    50% at 50% 50%
+  ); /* круг для обрезки, центрированный внутри блока */
+  overflow: hidden;
   text-align: center;
-  gap: 35px;
-  height: 190px;
-  width: 299px;
-  margin-top: -17px;
-  margin-left: 51px;
+  line-height: 80px;
 }
 
 .b7 {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   gap: 30px;
   height: 190px;
-  width: 299px;
+  width: 300px;
+  margin-top: -50px;
+  margin-left: 98px;
+}
+
+.mediator {
+  height: 334px;
+  width: 334px;
+  background: url(../images/mediator.svg);
   margin-top: -14px;
-  margin-left: 35px;
-}
-
-.mask > div {
-  margin-top: 150px;
-  margin-left: 150px;
-  width: 150px;
-  height: 150px;
-  background: #f4f4f4;
-  overflow-x: hidden;
-  position: relative;
-  border-image: url(../images/mask1.svg) 1 fill;
-}
-
-.fourth_screen > img {
-  z-index: 100;
-  position: absolute;
-  top: 100px;
+  margin-left: -70px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fifth_screen {
@@ -1007,9 +1033,54 @@ h6 {
   margin-left: -110px;
 }
 
+.circle3 {
+  z-index: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 283px;
+  width: 294px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+  margin-left: 100px;
+}
+
+.circle4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 475px;
+  width: 480px;
+  background: url(../images/circle2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -110px;
+  margin-left: 150px;
+}
+
+.letter4 {
+  text-transform: uppercase;
+}
 .letter2 {
   text-transform: lowercase;
 }
+
+.circle5 {
+  z-index: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 258px;
+  width: 256px;
+  background: url(../images/circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 115px;
+  margin-left: 600px;
+}
+
 .eighth_screen {
   height: 1024px;
   width: 1280px;
