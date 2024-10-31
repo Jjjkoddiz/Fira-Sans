@@ -55,6 +55,7 @@ h6 {
   margin-top: 76px;
   margin-left: 389px;
 }
+
 .horizont_first {
   display: flex;
   flex-direction: row;
@@ -93,6 +94,7 @@ h6 {
   margin-left: 18px;
 }
 
+/* Второе окно, где много стикеров */
 .second_window {
   position: relative;
   margin-top: 129px;
@@ -100,6 +102,8 @@ h6 {
   width: 127px;
   height: 219px;
 }
+
+/* Текст на стикере верхняя часть*/
 .stictop {
   font-family: 'FiraSans-Regular';
   font-size: 10px;
@@ -109,6 +113,7 @@ h6 {
   margin-top: 72px;
   margin-left: 30px;
 }
+/* Текст на стикере по центру*/
 .sticcenter {
   font-family: 'FiraSans-Bold';
   font-size: 12px;
@@ -118,6 +123,7 @@ h6 {
   margin-top: 4px;
   margin-left: 12px;
 }
+
 .stictwo {
   font-family: 'FiraSans-Regular';
   font-size: 16px;
@@ -127,6 +133,9 @@ h6 {
   margin-top: 19px;
   margin-left: 64px;
 }
+
+/* Табличка на двери */
+
 .door {
   width: 136px;
   height: 183px;
@@ -144,6 +153,7 @@ h6 {
   margin-left: 53px;
 }
 
+/* Большая витрина */
 .big_window {
   margin-top: 0px;
   margin-left: 0px;
@@ -261,6 +271,7 @@ h6 {
   margin-left: 112px;
   margin-top: 50px;
 }
+/* семплер */
 .headsampler {
   font-family: 'FiraSans-Black';
   font-size: 30px;
@@ -998,6 +1009,8 @@ h6 {
   display: center;
   box-sizing: border-box;
 }
+
+/* Буквы на барабанах */
 
 .container {
   display: flex;
